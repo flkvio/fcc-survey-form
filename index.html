@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div>
+    <header>
+    <h1 id="title">Pesquisa Sobre Programação!</h1>
+    <p id="description">Obrigado por reservar um tempo para preencher este formulário!</p>
+    </header>
+   
+      
+    <form id="survey-form">
+     <fieldset>
+       <legend>Informações pessoais:</legend>
+      <label id="name-label" for="name">Nome <input type="text" id="name" placeholder="Digite seu nome" required></label>
+      <label id="email-label" for="email">Email <input type="email" id="email" placeholder="Digite seu email" required></label>
+      <label id="number-label" for="number">Celular <input type="number" id="number" placeholder="Digite seu número de celular" min="11" max="12" ></label>
+</fieldset>
+   
+      <fieldset>
+            <label id="dropdown-label" for="dropdown"> <legend>Qual área você prefere?</legend>
+      
+      <select id="dropdown" >
+        <option value="" disabled selected>Escolha uma opção</option>
+        <option>Back-end</option>
+        <option>Front-end</option>
+      </select>
+      </label>
+      </fieldset>
+      
+<fieldset>
+  <legend>Você já trabalha na área?</legend>
+      <label for="area-sim" class=less-margin-label>
+        <input type="radio" name="atua-na-area" value="sim" id="area-sim"> Sim</label>
+         
+         <label for="area-nao"><input id="area-nao" type="radio" name="atua-na-area" value="nao"> Não
+        </label>
+       </fieldset>
+       <fieldset>
+         <legend>Você está matriculado em alguma instituição de ensino superior ou curso técnico?</legend>
+         <label for="ensino-sim" class=less-margin-label><input type="radio" name="ensino-curso" id="ensino-sim" value="sim"> Sim</label>
+         <label for="ensino-nao"><input type="radio" name="ensino-curso" id="ensino-nao" value="nao"> Não</label>
+       </fieldset>
+       <fieldset>
+         <legend>Para fins de networking, você gostaria de manter contato por: </legend>
+           <label for="form-whatsapp" class="less-margin-label"><input type="checkbox" id="form-whatsapp" value="sim"></input> Whatsapp</label>
+                     <label for="form-email"><input type="checkbox" id="form-email" value="sim"></input> Email</label>
+       </fieldset>
+       <fieldset>
+         
+         <label for:"experiencia">
+           <legend>Como tem sido a sua experiência com programação? Onde você está e onde você pretende chegar?</legend>
+		   <textarea id="experiencia" ></textarea>
+           </label>
+       </fieldset>
+
+      <input type="submit" id="submit">
+ </form>
+
+ <footer>
+   <p>freeCodeCamp</p>
+  </footer>
+  
+  </body>
+
+
+        
+</html>

@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: bordex-box;
+}
+
+
+body {
+  background: linear-gradient(90deg,#181852 10%, #3B3BCC 100%);
+  font-family: Verdana, sans-serif;
+  color: white;
+  padding: 48px;
+  font-size: 18px;
+  height: 99
+  
+}
+
+div {
+  padding: 24px;
+  margin: 0 auto;
+  background-color: #0a0a23;
+  border-radius: 5px;
+  width: 60%;
+  min-width: 360px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+
+#description {
+  font-size: 24px;
+  margin:  0 0 1em 0;
+  font-style: italic;
+}
+
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid #363663;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  
+}
+
+fieldset:nth-child(6) {
+ border: none;
+  margin: 0 0 34px 0;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+}
+
+label {
+  margin: 0 0 1em 0;
+  display:block;
+  font-size: 14px;
+  
+}
+
+input, select {
+  border: none;
+  outline:none;
+}
+
+
+
+select option {
+  background-color: #9797C1;
+  color: black;
+}
+
+
+
+
+::placeholder {
+  color: #3C3C4D;
+}
+
+input, select, textarea {
+  margin-top: 0.5em;
+  width: 100%;
+  padding: 0.25em;
+  border-radius: 5px;
+  display: block;
+  background-color: #9797C1;
+  color: #222242;
+  
+}
+
+
+input[type="radio"], input[type="checkbox"]{
+  display: inline;
+  width: 1em;
+  vertical-align: center;
+
+}
+
+.less-margin-label {
+  margin: 0 0 0.25em 0;
+}
+
+
+textarea {
+  resize: none;
+ 
+  font-size: 18px;
+  outline: none;
+  height: 10em;
+}
+
+
+input[type="submit"]{
+  display:block;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(135deg,#7A9173, #BADDAF);
+  padding: 0.25em 0;
+  width: 50%;
+  transition: all 0.1s;
+
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+
+}
+
+input[type="submit"]:active{
+  filter: brightness(0.5);
+  transform: scale(0.99)
+
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  margin: 15% 0 0 0;
+  left: 0;
+  height: 24px;
+  width: 100%;
+  min-width: 360px;
+  background-color: #0A0A24;
+}
